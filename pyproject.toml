@@ -1,0 +1,21 @@
+[project]
+name= "D3DPostProcessing"
+version = "0.1.0"
+description = "This project takes observed and modeled water level and velocity data to perform temporal and spectral analysis. Produces timeseries plots and maps to analyze modeling results  "
+readme = "README.md"
+license = "MIT"   
+license-files = ["LICENSE.txt"]
+authors = [{name = "Alejandro Angel", email = "alejandroangel@ucla.edu"},]
+maintainers = [{name = "Alejandro Angel", email = "alejandroangel@ucla.edu"},]
+requires-python = ">=3.10"
+dependencies = [ "numpy >= 1.25",]
+keywords = ["packaging"]
+classifiers = ["Development Status :: 3 - Alpha",]
+urls = {
+   # What is the landing page
+    Homepage = "https://example-pyproject.acme.com",
+    # Where is the source
+    Source = "https://github.com/acme/example-pyproject",
+    # Where to report bugs or request features
+    Issues = "https://github.com/acme/example-pyproject/issues/new"
+}
